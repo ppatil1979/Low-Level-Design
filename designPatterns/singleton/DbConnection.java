@@ -9,6 +9,7 @@ public class DbConnection {
     String userName;
     String password;
 
+    // create private constructor
     private DbConnection(){
 
     }

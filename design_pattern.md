@@ -9,6 +9,16 @@
 - Allow us to create only one object for a class when needed e.g. Shared resources like DB connection
 - Check detailed implemenation inside /designPatters/singleton/
 ## Builder
+It allow us to create object with following requirements
+1) Class with lot of attributes
+2) Validation required before object creation
+- Details, create student class which have many attributes, so we have to use builder pattern as per above given 2 criterias.
+- Will see how production builder pattern code going to be and for student will try to generate pattern
+- #### inside Client class Student std = Student.getStudentBuilder().setName().build(); 
+- Student class will have StudentBuilder as internal Builder class
+- StudentBuilder will have same student attributes with getter setter methods and build() method, each attribute setter method will return StudentBuilder object,build() will do validation and student object creation.
+- Student class will have all attributes without setter getter, private constructor with StudentBuilder parameter and getStudentBuilder method,which will return StudentBuilder object.
+- Detailed implementation is inside /designPatterns/builder/ folder
 
 ## Prototype
 
