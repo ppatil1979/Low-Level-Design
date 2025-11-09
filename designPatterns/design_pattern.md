@@ -22,6 +22,11 @@
 - Detailed implementation is inside /designPatterns/builder/ folder
 
 ## Prototype
+- Prototype Pattern is a creational design pattern that lets you create new objects by copying (cloning) existing ones, instead of creating them from scratch.
+- Make a duplicate of an existing object to save time and resources.
+- Prototype Pattern using a Registry (Prototype Registry Pattern) —
+a simplified version where prototypes are registered once in a central place (registry), and then cloned on demand.
+- Detailed implementation is inside /designPatterns/prototype/ folder
 
 ## Factory
 - Factory Pattern is a design pattern that provides a way to create objects without exposing the creation logic to the client,and instead, uses a common interface for all created objects.
