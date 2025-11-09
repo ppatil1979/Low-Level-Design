@@ -9,7 +9,8 @@
 - Allow us to create only one object for a class when needed e.g. Shared resources like DB connection
 - Check detailed implemenation inside /designPatters/singleton/
 ## Builder
-It allow us to create object with following requirements
+- Instead of calling a long constructor with many arguments,you build the object gradually using easy-to-read methods.
+- It allow us to create object with following requirements
 1) Class with lot of attributes
 2) Validation required before object creation
 - Details, create student class which have many attributes, so we have to use builder pattern as per above given 2 criterias.
@@ -23,6 +24,14 @@ It allow us to create object with following requirements
 ## Prototype
 
 ## Factory
+- Factory Pattern is a design pattern that provides a way to create objects without exposing the creation logic to the client,and instead, uses a common interface for all created objects.
+
+- Abstract Factory
+- Divide the interface in 2 separate interfaces
+1) Interface with all attributes and non-factory methods
+2) Interface with factory methods.
+
+- Detailed implementation is inside /designPatterns/factory/ folder
 
 # Structural Design Patterns
 - How your class/ code should be structured
