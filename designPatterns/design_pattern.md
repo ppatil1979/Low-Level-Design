@@ -55,6 +55,11 @@ a simplified version where prototypes are registered once in a central place (re
 - Define an interface
 - Implementation of an interface in Adapter class
 
+## Decorator Design Pattern
+- The Decorator Pattern lets you add new behavior or features to an object dynamically without changing its original class.
+- It wraps an existing object to extend its functionality.
+- When you want to add features at runtime (like adding toppings to a pizza, scrollbars to a window, or encryption to a data stream) without modifying existing code.
+
 # Behavioural Design Patterns
 - How to write behaviour
 - How to implement actions/ methods in our code base
