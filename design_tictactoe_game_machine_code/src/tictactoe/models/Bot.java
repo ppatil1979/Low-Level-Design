@@ -1,3 +1,5 @@
+package tictactoe.models;
+
 public class Bot extends Player {
     private GameDiffculty difficulty;
 

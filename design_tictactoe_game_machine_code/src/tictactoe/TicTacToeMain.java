@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import tictactoe.models.Player;
 import tictactoe.models.PlayerType;
-import tictactoe.models.GameDifficulty;
+import tictactoe.models.GameDiffculty;
 import tictactoe.models.Bot;
 
 public class TicTacToeMain {

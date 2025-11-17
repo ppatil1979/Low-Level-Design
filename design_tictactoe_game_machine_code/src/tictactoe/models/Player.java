@@ -1,3 +1,5 @@
+package tictactoe.models;
+
 public class Player {
     private String name;
     private char symbol;
